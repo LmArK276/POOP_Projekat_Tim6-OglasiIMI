@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-image: url('backforpocetnu.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+/* Full-width input fields */
+#header{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    background-color: #2c3e50;
+    text-transform: uppercase;
+    height: 100px;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 1.0em;
+    transition: font-size 0.3s;
+    font-weight: 700;
+}
+#logInNaslov a{
+    outline: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#loginState{
+    flex-grow: 1;
+    text-align: center;
+}
+#loginState2{
+    display: block;
+    background-color: #2c3e50;
+}
+h2{
+    margin: 0;
+}
+nav{
+    flex-grow: 1;
+    display: flex;
+}
+nav a{
+    flex-grow: 1;
+    display: block;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color:#00A59E;
+}
+#logOutDugme{
+    background-color: white;
+    color: #2c3e50;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+/*******************nav-bar********************/
+#sviOglasi{
+
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+
+}
+#sviOglasi h3{
+    font-weight: bold;
+    font-style: italic;
+
+}
+#dugme{
+    margin: auto;
+    width: 1000px;
+
+}
+button
+{
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding:20px;
+    background-color: #00A59E;
+    color: white;
+    border: none;
+}
+#dugmea{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+
+}
+#dugmea button{
+    border-radius: 10px;
+}
+#dugmeb{
+    margin-bottom: 10px;
+}
+#dugmeb button{
+    border-radius: 10px;
+}
+
